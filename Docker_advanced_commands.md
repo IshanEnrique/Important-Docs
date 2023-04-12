@@ -1,3 +1,7 @@
+## Build Docker Image with Maven 
+
+- mvn spring-boot:build-image
+
 ## Docker save
 Assume you have requirment that need to save your docker image as .tar file below are the commands for the same 
 - docker save image_name:tag > file_name.tar
